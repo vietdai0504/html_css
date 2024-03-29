@@ -1,0 +1,312 @@
+.classinfo {
+    width: 460px;
+    background-color: aliceblue;
+    float: left;
+    height: 80vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.selection li {
+    text-align: left;
+    width: 438px;
+    height: 30px;
+    border: none;
+    list-style-type: none;
+    padding: 10px;
+    background-color:aliceblue;
+    margin: 0 -1px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #b8afaf;
+    border-radius: 5px;
+  }
+.selection {
+  position: absolute;
+  left:-30px;
+  width: 200px;
+  height: 400px;
+}
+.selection li:hover {
+    background-color: #dcc3c3;
+  }
+.head {
+    background-color: #d0c5c5;
+    display: flex;
+    justify-content: right;
+  }
+.head .selecthk {
+  background-color: #d0c5c5;
+  border:none;
+}
+.selection2 {
+  width: 20px;
+  height: 40px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px 40px 8px 10px;
+  border: none;
+  border-radius: 0px;
+  background-color: #d0c5c5;
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="18px" height="18px"%3E%3Cpath d="M0 0h24v24H0z" fill="none"/%3E%3Cpath d="M20 9H4v2h16V9zm0 4H4v2h16v-2zm0 4H4v2h16v-2z" /%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  left:0;
+}
+.selection2:active {
+  background-color: rgb(13, 203, 190);
+}
+.click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.click button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(12, 231, 70);
+}
+#button1 {
+  background-color: rgb(202, 32, 244);
+}
+.click button:active{
+  background-color: chocolate;
+}
+#button1:active {
+  background-color: chocolate;
+}
+.classinfo1 {
+  display: flex;
+}
+.classinfo1 li{
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  list-style-type: none;
+}
+.info {
+  margin-top: 20px;
+  width: 1020px;
+  height: 365px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+}
+.info h2 {
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+.infofamily li{
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+}
+.material-icons {
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 3px;
+}
+.image {
+  width: 150px;
+  height: 180px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.major {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-align: center;
+  margin-left: 0px;
+}
+.major1 {
+  align-items: center;
+  text-align: center;
+}
+.infofamily {
+  width: 1020px;
+  height: 340px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+}
+hr {
+  border-top: 1px solid #ccc;
+  width: 100%;
+}
+
+.infofamily h2 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.dad {
+  display: block;
+  width:150px;
+  height: 200px;
+  margin-left: 30px;
+}
+.dad h3 {
+  display: flex;
+  align-items: left;
+  margin-left: 10px;
+}
+.dad ul li {
+  display: block;
+  margin-bottom: 5px;
+}
+.mom {
+  display: grid;
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  right:360px;
+  top: 85px;
+}
+.mom ul li{
+  display: block;
+  justify-content:left;
+  align-items: left;
+  margin-bottom: 7px;
+}
+.mom h3 {
+  display: flex;
+  align-items: left;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.dad1 ul li{
+  width:250px;
+  display: block;
+  align-items: left;
+  margin-bottom: 5px;
+}
+.dad1 {
+  display: grid;
+  position: absolute;
+  left: 170px;
+  top: 115px;
+}
+.mom1 {
+  display: grid;
+  position: absolute;
+  right: 75px;
+  top: 110px;
+}
+.mom1 ul li {
+  width: 250px;
+  display: block;
+  align-items: left;
+  margin-bottom: 7px;
+}
+.infoMe {
+  display:grid;
+  position: absolute;
+  width: 120px;
+  left:0px;
+}
+.infoMe ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.infoMe1 {
+  display:grid;
+  position: absolute;
+  width: 120px;
+  top: 97px;
+  left:100px;
+}
+.infoMe1 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.infoMe2 {
+  display:grid;
+  position: absolute;
+  width: 120px;
+  top: 117px;
+  left:320px;
+}
+.infoMe2 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.infoMe3 {
+  display:grid;
+  position: absolute;
+  width: 120px;
+  top: 117px;
+  right: 470px;
+}
+.infoMe3 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 11px;
+}
+.infoMe4 {
+  display:grid;
+  position: absolute;
+  width: 120px;
+  top: 175px;
+  right: 270px;
+}
+.infoMe4 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.infoMe5 {
+  display:grid;
+  position: absolute;
+  width: 180px;
+  top: 205px;
+  right: 110px;
+}
+.infoMe5 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 10px;
+}
+.infoMe6 {
+  display:grid;
+  position: absolute;
+  width: 180px;
+  top: 90px;
+  left: 350px;
+}
+.infoMe6 ul li{
+  display: block;
+  justify-content: left;
+  align-items: left;
+  margin-bottom: 8px;
+}
+.brline {
+  display: block;
+  margin-bottom: 10px;
+}
